@@ -32,7 +32,6 @@ public class GetCreditScore {
     public static void main(String[] args) throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("datdb.cphbusiness.dk");
-        factory.setVirtualHost("student");
         factory.setUsername("Dreamteam");
         factory.setPassword("bastian");
 
